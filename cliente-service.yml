@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: cliente-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/novabank_cliente
+    username: postgres
+    password: "tu_password"
+  jpa:
+    hibernate:
+      ddl-auto: update

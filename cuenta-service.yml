@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: cuenta-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/novabank_cuentas
+    username: postgres
+    password: "tu_password"
+  jpa:
+    hibernate:
+      ddl-auto: update
