@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/novabank_cliente
     username: postgres
-    password: "tu_password"
+    password: "745507"
   jpa:
     hibernate:
       ddl-auto: update
