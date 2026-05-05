@@ -4,7 +4,7 @@ spring:
   application:
     name: cliente-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/novabank_cliente
+    url: jdbc:postgresql://localhost:5432/novabank_clientes
     username: postgres
     password: "745507"
   jpa:
