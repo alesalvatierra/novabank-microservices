@@ -1,0 +1,14 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: operacion-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/novabank_operaciones
+    username: postgres
+    password: "745507"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
